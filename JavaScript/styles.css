@@ -1,0 +1,71 @@
+
+img {
+    
+    display: block;
+    margin: 50px auto;
+    max-width: 50%;
+   
+  }
+
+ 
+
+body {
+
+    background-color: rgb(15, 15, 15);
+}
+
+
+
+.fa-solid.fa-house.fa-beat.fa-2xl {
+
+  color:aliceblue;
+  
+
+  
+}
+
+
+
+
+
+.fa-solid.fa-user.fa-beat.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+
+.fa-solid.fa-folder.fa-beat.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+
+
+
+.fa-solid.fa-gear.fa-beat.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+.align {
+
+  margin-left: 37%;
+ 
+  
+
+ 
+}
+
+
+.align a {
+
+  margin-left: 5%;
+
+ 
+}
