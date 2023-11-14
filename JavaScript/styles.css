@@ -1,12 +1,11 @@
-
-img {
-    
-    display: block;
-    margin: 50px auto;
-    max-width: 50%;
-   
-  }
-
+.center {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
  
 
 body {
@@ -16,7 +15,7 @@ body {
 
 
 
-.fa-solid.fa-house.fa-beat.fa-2xl {
+.fa-solid.fa-house.fa-2xl {
 
   color:aliceblue;
   
@@ -28,7 +27,7 @@ body {
 
 
 
-.fa-solid.fa-user.fa-beat.fa-2xl {
+.fa-solid.fa-user.fa-2xl {
 
   color:aliceblue;
   
@@ -36,17 +35,7 @@ body {
 }
 
 
-.fa-solid.fa-folder.fa-beat.fa-2xl {
-
-  color:aliceblue;
-  
-
-}
-
-
-
-
-.fa-solid.fa-gear.fa-beat.fa-2xl {
+.fa-solid.fa-folder.fa-2xl {
 
   color:aliceblue;
   
@@ -56,9 +45,37 @@ body {
 
 
 
-.align a {
+.fa-solid.fa-gear.fa-2xl {
 
-  margin-left: 50%; 
+  color:aliceblue;
+  
+
+}
+
+#align {
+
+  /*border: solid rgb(255, 255, 255) 1px;*/
+
+  
+ 
+
+  
+  
+ 
+  margin-top: 20px;
+  text-align:left;
+  margin-left: 30%;
+  
+ 
+  
+
+ 
 }
 
 
+#align a {
+
+  margin-left: 5%;
+ 
+ 
+}
