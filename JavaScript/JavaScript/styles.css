@@ -1,0 +1,74 @@
+.center {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+ 
+
+body {
+
+    background-color: rgb(15, 15, 15);
+}
+
+
+
+.fa-solid.fa-house.fa-2xl {
+
+  color:aliceblue;
+  
+
+  
+}
+
+
+
+
+
+.fa-solid.fa-user.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+
+.fa-solid.fa-folder.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+
+
+
+.fa-solid.fa-gear.fa-2xl {
+
+  color:aliceblue;
+  
+
+}
+
+#align {
+
+ /* border: solid rgb(255, 255, 255) 1px;*/
+
+  
+ 
+
+  
+  
+ 
+  margin-top: 20px;
+  
+ margin-left: 40%;
+  
+ 
+  
+
+ 
+}
+
