@@ -1,12 +1,40 @@
-.center {
+.imgElement {
   margin-top: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 50%;
   
 }
- 
+
+.container {
+  height: 25px;
+  position: relative;
+  /*border: 3px solid rgb(255, 255, 255);*/
+}
+
+
+.divButtonVisit {
+
+  
+
+
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+  
+
+
+
+
+
 
 body {
 
@@ -14,68 +42,3 @@ body {
 }
 
 
-
-.fa-solid.fa-house.fa-2xl {
-
-  color:aliceblue;
-  
-
-  
-}
-
-
-
-
-
-.fa-solid.fa-user.fa-2xl {
-
-  color:aliceblue;
-  
-
-}
-
-
-.fa-solid.fa-folder.fa-2xl {
-
-  color:aliceblue;
-  
-
-}
-
-
-
-
-.fa-solid.fa-gear.fa-2xl {
-
-  color:aliceblue;
-  
-
-}
-
-#align {
-
-  /*border: solid rgb(255, 255, 255) 1px;*/
-
-  
- 
-
-  
-  
- 
-  margin-top: 20px;
-  text-align:left;
-  margin-left: 10%;
-  
- 
-  
-
- 
-}
-
-
-#align a {
-
-  margin-left: 5%;
- 
- 
-}
