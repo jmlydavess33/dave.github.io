@@ -1,62 +1,48 @@
-.imgElement {
- 
-  width: 50%;
-  
-}
-
-
-
-
-.visitBorder {
-
-  text-align: center;
-
-}
 
 .My-Portfolio {
-
   color: white;
-  text-align: center;
-  
-  
-
-}
-
-.container {
-  text-align: center;
- 
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  margin-top: 0px;
 }
 
 
-.container .text{
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 120%;
-  transform: translate(-50%, -50%);
-  border: 1px red solid;
 
-}
-
-
-.imgcenter {
-  text-align: center;
-  position: relative;
-}
-
-
-.imgScroll {
-  text-align: center;
+.img {
   width: 50%;
-
-
+  padding: 5px;
+  
 }
 
 
 
 body {
-
     background-color: rgb(15, 15, 15);
+    margin-top: 50px;
+}
+
+
+.container {
+  
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+
+
+
+
+.bottonGetStarted {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
