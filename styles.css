@@ -73,6 +73,15 @@ body {
 
 span {
   color: rgb(96, 96, 96);
+  
+}
+
+
+.span {
+  
+
+  text-align: right;
+  
 }
 
 
@@ -84,7 +93,7 @@ span {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -99,6 +108,8 @@ span {
   display: block;
   transition: 0.3s;
   border-radius: 50px;
+  border: soldi 1px red;
+  
 }
 
 
@@ -106,6 +117,9 @@ span {
   
   color: #ffffff;
   background-color: #111;
+ 
+
+  
 
 }
 
@@ -117,11 +131,15 @@ span {
 }
 
 .sidenav .closebtn {
+  
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  left: 25px;
+  font-size: 55px;
+  margin-right: 80px;
+  padding: 1px;
+  
+  
 }
 
 @media screen and (max-height: 450px) {
