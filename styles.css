@@ -1,4 +1,13 @@
 
+.components {
+
+  position: absolute;
+  bottom: 50%;
+  top: 20%; 
+
+}
+
+
 .My-Portfolio {
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -18,7 +27,7 @@
 
 body {
     background-color: rgb(15, 15, 15);
-    margin-top: 50px;
+   
 }
 
 
