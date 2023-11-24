@@ -50,6 +50,7 @@ body {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 50px;
 }
 
 
@@ -68,16 +69,17 @@ header {
 
 
 nav {
-  margin: 0;
-  padding: 20px 0;
+  margin: 50px;
+  padding: 40px 10px;
   text-align: center;
+  
 }
 
 nav li {
   
   
-  
-  display: inline-block ;
+  padding: 20px;
+  display: block ;
   
 }
 
@@ -85,8 +87,10 @@ nav li {
 .navButton {
   
   
+  
+  
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -94,7 +98,9 @@ nav li {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 50px;
   
+
 
 
 }
