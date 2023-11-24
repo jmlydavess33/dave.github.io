@@ -24,6 +24,13 @@ body {
   margin-top: 50px;
 }
 
+.imgHome {
+
+  margin: 50px auto 50px;
+  width: 90%;
+  
+}
+
 
 
 
@@ -92,6 +99,14 @@ span {
   display: block;
   transition: 0.3s;
   border-radius: 50px;
+}
+
+
+.sidenav a:hover.closebtn {
+  
+  color: #ffffff;
+  background-color: #111;
+
 }
 
 
