@@ -2,7 +2,6 @@
 body {
   background-color: rgb(0, 0, 0);
   margin: 0;
-  
 }
 
 
@@ -69,7 +68,7 @@ body {
 }
 
 span {
-  color: rgb(0, 0, 0);
+  color: rgb(74, 73, 73);
   
 }
 
@@ -152,7 +151,7 @@ header {
  
   position: fixed;
   z-index: -1;
-  background-color: #b5b5b5;
+  background-color: #000000;
   width: 100%;
 }
 
@@ -164,13 +163,13 @@ ul {
 }
 
 li {
-  color: #000000;
+  color: #4a4a4a;
   font-family: 'Oswald', sans-serif;
   font-size: 50px;  
   width: 150px;
   text-align: center;
   border-radius: 50px;
-  border: 5px solid rgb(255, 255, 255);
+  border: 1px solid rgb(36, 36, 36);
   padding: 5px;
   
 
@@ -186,9 +185,9 @@ li {
 
 .imgdave1 {
 
-  width: 22%;
+  width: 30%;
   margin: 40px 0 0;
-  
+  float:left; 
 
   
 }
@@ -209,7 +208,29 @@ footer {
 
 
 
+.hi {
 
+  color: rgb(255, 255, 255);
+  
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+
+
+.myBio {
+
+  color: white;
+  text-align: justify;
+  padding:  0 150px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  
+  
+  letter-spacing: 2px;
+}
 
 /*pageMy-Portfolio//////////////////////////////////////////////////////*/
 
@@ -252,6 +273,68 @@ footer {
 
 
 
+/*c///////////////////////////Code of logo fb and etc.*/
+
+/* Style all font awesome icons */
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.icon {
+  text-align: left;
+  padding: 1px;
+  margin: 0;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 
 
@@ -379,6 +462,29 @@ nav li {
 
 
 
+
+
+
+<!--
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <a href="#" class="navButton">&#9978; Home</a>
+      <a href="#" class="navButton">&#128570; Profile</a>
+      <a href="#" class="navButton">&#128189; Photos</a>
+      <a href="#" class="navButton">&#127916; Videos</a>
+      <a href="#" class="navButton">&#128194; Projects</a>
+      <a href="#" class="navButton">&#128196;Certificates</a>
+      <a href="#" class="navButton">&#128218; My Diary</a>
+      <a href="#" class="navButton">&#128129;&#127995; About</a>
+      <a href="./My-Portfolio.html" class="navButton">&#128587; Exit</a>
+      <img class="imgHome" src="img\meAndTree.png" />
+    </div>
+
+-->
 
 
 */
