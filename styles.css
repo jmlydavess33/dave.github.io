@@ -32,12 +32,21 @@ body {
 
 .img {
   width: 100%;
-  padding: 1px;
-  margin-top: 50px;
+  
+  
 }
 
-
-
+.bottonGetStarted {
+  background-color: #333;
+  color: #fff;
+  
+  
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
 
 .container {
   
@@ -60,17 +69,6 @@ body {
 
 /*pageMy-Portfolio*/
 
-.bottonGetStarted {
-  background-color: #333;
-  color: #fff;
-  
-  
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
 
 
 
@@ -327,6 +325,17 @@ nav li {
 
 
 
+.bottonGetStarted {
+  background-color: #333;
+  color: #fff;
+  
+  
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
 
 
 
