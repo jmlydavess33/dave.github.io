@@ -25,6 +25,7 @@ body {
   margin: 10px auto 50px;
   width: 90%;
   
+  
 }
 
 
@@ -32,7 +33,6 @@ body {
 .img {
   width: 40%;
   padding: 5px;
- 
   margin-top: 50px;
 }
 
@@ -48,7 +48,7 @@ body {
 
 
 
-
+/*pageMy-Portfolio*/
 
 .bottonGetStarted {
   background-color: #333;
@@ -98,20 +98,22 @@ span {
   top: 0;
   right: 0;
   background-color: #111;
-  overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 65px
+  
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 1px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
   border-radius: 50px;
-  border: soldi 1px red;
+
+  
+  
   
 }
 
@@ -145,10 +147,6 @@ span {
   
 }
 
-@media screen and (max-height: 50px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 
 
@@ -277,13 +275,46 @@ nav li {
 
 
 
+@media screen and (max-height: 50px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 
 
 
 
+.sidenav {
+  
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 65px
+  
+}
 
+
+
+.sidenav {
+  
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  transition: 0.5s;
+  padding-top: 65px
+  
+}
 
 
 
