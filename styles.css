@@ -18,21 +18,23 @@ body {
 
 
 
+
+
+.imgHome {
+
+  margin: 10px auto 50px;
+  width: 90%;
+  
+}
+
+
+
 .img {
   width: 40%;
   padding: 5px;
  
   margin-top: 50px;
 }
-
-.imgHome {
-
-  margin: 50px auto 50px;
-  width: 90%;
-  
-}
-
-
 
 
 
@@ -73,7 +75,7 @@ body {
 }
 
 span {
-  color: rgb(254, 254, 254);
+  color: rgb(0, 0, 0);
   
 }
 
@@ -143,7 +145,7 @@ span {
   
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 50px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
@@ -155,8 +157,7 @@ span {
 /*HEADER CODES////////////////////////////////////////////////////////////////*/
 
 header {
-  background-color: #46957b;
-  
+  background-color: #ffffff;
   position: fixed;
   width: 100%;
   z-index: -1;
@@ -165,21 +166,21 @@ header {
 
 
 ul {
-  margin: 30px auto;
+  
   padding: 10px 20px;
   text-align: center;
-  border-radius: 1px;
-  border: solid white 1px;
-  width: 100px;
+ 
+  
 }
 
 li {
-  color: #FFF;
+  color: #000000;
   font-family: 'Oswald', sans-serif;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 50px;  
   text-transform: uppercase;
-  display: inline-block;
+ 
+  
+ 
    
 }
 
@@ -270,5 +271,26 @@ nav li {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
