@@ -10,14 +10,10 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-style: bold;
-  padding: 15px;
-  margin-top: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
-
-
-
-
-
 
 
 .imgHome {
@@ -39,20 +35,27 @@ body {
 .bottonGetStarted {
   background-color: #333;
   color: #fff;
-  
-  
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 50px;
+  margin-top: 150px;
+  
+  
 }
 
 .container {
   
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
   
+  
+}
+
+p{
+  text-align: center;
+  margin-top: 30px;
 }
 
 .centerComponents {
