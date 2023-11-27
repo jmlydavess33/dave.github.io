@@ -33,6 +33,7 @@ body {
 
 .bottonGetStarted {
   background-color: #333;
+  background-image: linear-gradient(to right, gray, rgb(205, 147, 61));
   color: #fff;
   letter-spacing: 1.3px;
   padding: 10px 20px;
@@ -40,6 +41,7 @@ body {
   text-transform: uppercase;
   border-radius: 50px;
   margin-top: 150px;
+  
   
   
 }
@@ -125,7 +127,7 @@ span {
 
 .sidenav a:hover {
   color: #000000;
-  background-color: #ffffff;
+  background-color: rgb(205, 147, 61);
 }
 
 .sidenav .closebtn {
@@ -153,12 +155,16 @@ header {
   z-index: -1;
   background-color: #000000;
   width: 100%;
+  background-color: #c0c0c0;
+  background-image: linear-gradient(to right, gray, rgb(205, 147, 61));
 }
 
 
 ul {
   
   padding: 10px 20px;
+  text-align: center;
+  
 
 }
 
@@ -166,10 +172,8 @@ li {
   color: #4a4a4a;
   font-family: 'Oswald', sans-serif;
   font-size: 50px;  
-  width: 150px;
-  text-align: center;
-  border-radius: 50px;
-  border: 1px solid rgb(36, 36, 36);
+  width: 20%;
+  
   padding: 5px;
   
 
@@ -301,11 +305,6 @@ footer {
 
 
 
-p {
-
- color:white;
- text-align: left;
-}
 
 h3 {
 
@@ -313,6 +312,57 @@ h3 {
   text-align: left;
   
  }
+
+
+/*/////////////PROJECTS CODES///////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.leftNav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  background-image: linear-gradient(to rgb, rgb(132, 132, 132), rgb(0, 0, 0));
+  overflow-x: hidden;
+  padding-top: 140px;
+  z-index: -2;
+}
+
+.leftNav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.leftNav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.menuProject {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+}
 
 /*c///////////////////////////Code of logo fb and etc.*/
 
