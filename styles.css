@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
 
 
 body {
   
   background-color: #000000;
-  margin: 0;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+
+  
+ 
 }
 
 
@@ -55,9 +62,6 @@ p {
   margin-top: 30px;
 }
 
-
-
-/*pageMy-Portfolio*/
 
 
 
@@ -156,7 +160,7 @@ header {
  
   position: fixed;
   z-index: -1;
-  width: 100%;
+  width: 60%;
   background-image: linear-gradient(to right, gray, rgb(205, 147, 61));
   
 }
@@ -198,21 +202,18 @@ li {
 footer {
  
     position: fixed;
-    left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #b5b5b5;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    z-index: -1;
+    left: 45%;
+    color: rgb(255, 255, 255);
+    
  }
 
 
 
 .hi {
 
-  color: rgb(255, 255, 255);
-  
+  color: rgb(204, 204, 204);
+  text-align: left;
   padding: 0;
   margin: 0;
   
@@ -235,9 +236,7 @@ footer {
   color: white;
   text-align: justify;
   line-height: 1.5;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-right: 40px;
+ 
   
   
   letter-spacing: 2px;
@@ -265,6 +264,12 @@ main {
 
 /*pageMy-Portfolio//////////////////////////////////////////////////////*/
 
+
+h1 {
+  text-align: center;
+  color: rgb(234, 234, 234);
+}
+
 .dateTime {
   color: white;
   margin: 50px;
@@ -283,11 +288,12 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
  
-  
-
-  
 }
 
+
+.heart {
+  color: red;
+}
 
 
 
@@ -298,6 +304,20 @@ main {
  
   
   
+}
+
+
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
 }
 
 
@@ -312,6 +332,7 @@ h3 {
 
   color: rgb(205, 147, 61);
   text-align: center;
+  margin-top: 100px;
   
  }
 
@@ -363,221 +384,21 @@ h2 {
   text-align: left;
   color:#ededed
 }
+
 /*
-
-.leftNav {
-  height: 100%;
-  width: 130px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  background-image: linear-gradient(to rgb, rgb(132, 132, 132), rgb(0, 0, 0));
-  overflow-x: hidden;
-  padding-top: 140px;
-  z-index: -2;
-}
-
-.leftNav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-.leftNav a:hover {
-  color: #f1f1f1;
-}
-
-
-
-.menuProject {
-  margin-left: 160px; /* Same as the width of the sidenav 
-  font-size: 28px;  Increased text to enable scrolling
-  padding: 0px 10px;
-  background-color: #333;
-  margin-top: 70px;
-  margin-right: 25px;
-}
-
-h2 {
-  color: white;
-}
-
-.ProjectsMenu {
-  color: white;
-  text-align: justify;
-  padding-right: 20px;
-}
-
- */
-
-/*c///////////////////////////Code of logo fb and etc.*/
-
-/* Style all font awesome icons */
-
-
-/* Add a hover effect if you want */
-
-
-
-
-
-
-
-
-/* Set a specific color for each brand */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*////////////////////////////////////////////////////////////////////////////////
-
-BELOW IS DESIGN FOR Home.html
-
-
-
-header {
-  
-  position: fixed ;
-  width: 100% ;
-}
-
-
-nav {
-  margin: 50px;
-  padding: 40px 10px;
-  text-align: center;
-  
-}
-
-nav li {
-  
-  
-  padding: 20px;
-  display: block ;
-  
-}
-
-
-.navButton {
-  
-  
-  
-  
-  background-color: #333;
-  color: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 50px;
-  
-
-
-
-}
-
-
-
-
-
-
-@media screen and (max-height: 50px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-
-
-
-
-.sidenav {
-  
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 65px
-  
-}
-
-
-
-.sidenav {
-  
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  transition: 0.5s;
-  padding-top: 65px
-  
-}
-
-
-
-.bottonGetStarted {
-  background-color: #333;
-  color: #fff;
-  
-  
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
-
-
-
-
-
-
-
-<!--
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-
-      <a href="#" class="navButton">&#9978; Home</a>
-      <a href="#" class="navButton">&#128570; Profile</a>
-      <a href="#" class="navButton">&#128189; Photos</a>
-      <a href="#" class="navButton">&#127916; Videos</a>
-      <a href="#" class="navButton">&#128194; Projects</a>
-      <a href="#" class="navButton">&#128196;Certificates</a>
-      <a href="#" class="navButton">&#128218; My Diary</a>
-      <a href="#" class="navButton">&#128129;&#127995; About</a>
-      <a href="./My-Portfolio.html" class="navButton">&#128587; Exit</a>
-      <img class="imgHome" src="img\meAndTree.png" />
-    </div>
-
--->
-
+comments here
 
 */
+
+
+
+
+
+.heart {
+  color: red;
+}
+
+
+
+
+
