@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
 
 
 body {
@@ -217,6 +217,15 @@ footer {
   padding: 0;
   margin: 0;
   
+.Dave-Gomeloy {
+
+  background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #7b7b7b, #44a1ee); 
+              -webkit-text-fill-color: transparent; 
+              -webkit-background-clip: text; 
+}
+
+  
   
 }
 
@@ -262,6 +271,12 @@ main {
   margin: 30px ;
 }
 
+
+.icon {
+
+  font-size: 30px;
+  text-align: justify;
+}
 /*pageMy-Portfolio//////////////////////////////////////////////////////*/
 
 
