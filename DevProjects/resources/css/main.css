@@ -1,0 +1,68 @@
+/*Codes for main.css*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000000;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+}
+
+.light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(13, 11, 150, 0, 0) 80%
+  ); /* Lighting effect */
+  animation: glow 2s ease-in-out infinite alternate; /* Animation */
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px 10px rgba(4, 3, 61, 0.8); /* Initial shadow */
+  }
+  100% {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); /* Final shadow */
+  }
+}
+
+#Dave-Gomeloy {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#Visit {
+  position: fixed;
+  z-index: 1;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}

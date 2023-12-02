@@ -1,0 +1,121 @@
+/* Basic CSS styles */
+
+/* Apply styles to the header, sections, and links */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+
+/* Style the project sections */
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #ddd;
+}
+
+.p-justify {
+  text-align: justify; /* Justify the text */
+  display: inline-block; /* Maintain inline-block to center */
+}
+
+.eks {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+.heart {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contactIcons {
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.container p {
+  text-align: left;
+  margin-top: 0;
+}
+
+.DaveGomeloyImage {
+  position: fixed;
+  bottom: -50px;
+  right: -100px;
+  z-index: -2;
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.iconSize {
+  font-size: 50px;
+  letter-spacing: 25px;
+}
