@@ -97,7 +97,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.container p {
+.Front-End-Developer {
   text-align: left;
   margin-top: 0;
 }
@@ -118,4 +118,34 @@ a {
 .iconSize {
   font-size: 50px;
   letter-spacing: 25px;
+}
+
+.skillsIcons {
+  margin: 0 auto 50px;
+}
+
+/*for certificates codes*/
+
+/*For skills code*/
+
+/* Example CSS to style the skills list */
+.skills {
+  font-family: Arial, sans-serif;
+
+  text-align: left;
+  margin: 30px auto;
+}
+
+.skills li {
+  margin: 5px auto;
+}
+
+.leftHeader {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+span {
+  background-color: gainsboro;
 }
