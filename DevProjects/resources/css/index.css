@@ -90,6 +90,7 @@ footer {
 
 .contactIcons {
   margin: 40px auto;
+  text-align: left;
 }
 
 h1 {
@@ -106,7 +107,7 @@ h1 {
   position: fixed;
   bottom: -50px;
   right: -100px;
-  z-index: 1;
+  z-index: 1sss;
   width: 30%;
 }
 
@@ -124,6 +125,22 @@ a {
   margin: 0 auto 50px;
 }
 
+/*For projectslist code*/
+
+/* Example CSS to style the skills list */
+
+.projects {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  text-align: justify;
+
+  /*list-style-type: none;*/
+}
+
+.projects li {
+  margin: 40px auto;
+}
+
 /*for certificates codes*/
 
 /*For skills code*/
@@ -133,11 +150,12 @@ a {
   font-family: Arial, sans-serif;
 
   text-align: left;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .skills li {
-  margin: 5px auto;
+  margin: 10px auto;
+  text-align: justify;
 }
 
 .leftHeader {

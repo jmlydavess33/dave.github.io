@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": "../samples"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "DevProjects"
+  }
+}
