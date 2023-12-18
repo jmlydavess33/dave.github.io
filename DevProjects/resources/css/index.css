@@ -107,7 +107,7 @@ h1 {
   position: fixed;
   bottom: -50px;
   right: -100px;
-  z-index: 1sss;
+  z-index: 1;
   width: 30%;
 }
 
